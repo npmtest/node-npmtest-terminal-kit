@@ -1,6 +1,6 @@
 # npmtest-terminal-kit
 
-#### test coverage for  [terminal-kit (v1.4.1)](https://github.com/cronvel/terminal-kit#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-terminal-kit.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-terminal-kit) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-terminal-kit.svg)](https://travis-ci.org/npmtest/node-npmtest-terminal-kit)
+#### basic test coverage for  [terminal-kit (v1.4.4)](https://github.com/cronvel/terminal-kit#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-terminal-kit.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-terminal-kit) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-terminal-kit.svg)](https://travis-ci.org/npmtest/node-npmtest-terminal-kit)
 
 #### 256 colors, keys and mouse, input field, progress bars, screen buffer (including 32-bit composition and image loading), text buffer, and many more... Whether you just need colors and styles, build a simple interactive command line tool or a complexe termi
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-terminal-kit/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-terminal-kit/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-terminal-kit/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-terminal-kit/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-terminal-kit/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-terminal-kit/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-terminal-kit/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-terminal-kit/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-terminal-kit/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-terminal-kit/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-terminal-kit/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-terminal-kit/build/coverage.html/index.html)
 
@@ -66,13 +66,13 @@
         "test": "test"
     },
     "dist": {
-        "shasum": "41c61ae48d379410798d713a24f7cd60c77f5728",
-        "tarball": "https://registry.npmjs.org/terminal-kit/-/terminal-kit-1.4.1.tgz"
+        "shasum": "5ccced134059b71201e4156f728a511dd49f70e9",
+        "tarball": "https://registry.npmjs.org/terminal-kit/-/terminal-kit-1.4.4.tgz"
     },
     "engines": {
         "node": ">=4.5.0"
     },
-    "gitHead": "6f892325211127239a58c46936fbef1455f0f056",
+    "gitHead": "334a716d908cae84607af31f555ea459c5bfbc72",
     "homepage": "https://github.com/cronvel/terminal-kit#readme",
     "keywords": [
         "terminal",
@@ -115,7 +115,8 @@
     "scripts": {
         "test": "tea-time -R dot"
     },
-    "version": "1.4.1"
+    "version": "1.4.4",
+    "bin": {}
 }
 ```
 
